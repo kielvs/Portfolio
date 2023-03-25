@@ -50,6 +50,7 @@ body {
   color: var(--second-color);
 }
 
+
 h1, h2, p {
   margin: 0;
 }
@@ -62,6 +63,12 @@ ul {
 
 a {
   text-decoration: none;
+  color:var(--second-color);
+}
+
+a:hover{
+  text-decoration: none;
+  color:var(--first-color);
 }
 
 img {
@@ -310,6 +317,13 @@ img {
 }
 
 /* ===== CONTACT =====*/
+
+.contact__list{
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -319,6 +333,7 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  color: var(--second-color);
 }
 
 .contact__button {
@@ -404,9 +419,10 @@ img {
     margin-bottom: var(--mb-6);
   }
   .section-title::after {
-    width: 80px;
+    width: 100px;
     top: 3rem;
   }
+  
   .nav {
     height: calc(var(--header-height) + 1.5rem);
     background-color: black;
